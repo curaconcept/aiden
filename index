@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Algebra!</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-8 flex items-center justify-center min-h-screen">
+
+    <div class="max-w-4xl mx-auto space-y-8 p-6 bg-white rounded-3xl shadow-2xl border border-gray-200">
+
+        <!-- Header Section -->
+        <header class="text-center">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-700 leading-tight">Awesome Algebra! 🚀</h1>
+            <p class="mt-2 text-lg text-gray-600">Let's solve some fun math mysteries together.</p>
+        </header>
+        
+        <!-- Section 1: What is a Variable? -->
+        <section class="p-6 bg-blue-50 rounded-2xl shadow-inner">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4">What's a Variable? 🤔</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                Imagine a **variable** is like a mystery box in a math problem. We don't know what number is inside yet! We use letters like <code class="bg-blue-200 px-2 py-1 rounded-md text-blue-800 font-mono font-semibold">x</code>, <code class="bg-blue-200 px-2 py-1 rounded-md text-blue-800 font-mono font-semibold">y</code>, or <code class="bg-blue-200 px-2 py-1 rounded-md text-blue-800 font-mono font-semibold">a</code> to represent these mystery numbers. Our job is to use clues to figure out what's inside the box!
+            </p>
+        </section>
+
+        <!-- Section 2: Finding One Variable -->
+        <section class="p-6 bg-purple-50 rounded-2xl shadow-inner">
+            <h2 class="text-3xl font-bold text-purple-600 mb-4">Finding One Variable 🕵️</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                Think of an equation as a perfectly balanced scale. What you do to one side, you **must** do to the other side to keep it balanced. Our goal is to get the mystery box (<code class="bg-purple-200 px-2 py-1 rounded-md text-purple-800 font-mono font-semibold">x</code>) all by itself.
+            </p>
+
+            <div class="mt-6 space-y-4">
+                <!-- Example 1 -->
+                <div class="bg-white p-4 rounded-xl shadow-md border border-purple-200">
+                    <h3 class="font-bold text-xl text-purple-700 mb-2">Example: Addition</h3>
+                    <p class="font-mono text-gray-800 text-lg">
+                        <span class="block mb-1">Equation: <span class="font-semibold">x + 5 = 10</span></span>
+                        <span class="block text-purple-500 font-medium">To get 'x' alone, we need to get rid of the '5'. We do the opposite of adding 5, which is subtracting 5.</span>
+                        <span class="block">1. Subtract 5 from both sides: <span class="font-semibold">x + 5 - 5 = 10 - 5</span></span>
+                        <span class="block">2. This leaves us with: <span class="font-semibold">x = 5</span></span>
+                        <span class="block mt-2 font-semibold text-green-600">You found the answer! The mystery number is 5. ✅</span>
+                    </p>
+                </div>
+                <!-- Example 2 -->
+                <div class="bg-white p-4 rounded-xl shadow-md border border-purple-200">
+                    <h3 class="font-bold text-xl text-purple-700 mb-2">Example: Multiplication</h3>
+                    <p class="font-mono text-gray-800 text-lg">
+                        <span class="block mb-1">Equation: <span class="font-semibold">3x = 12</span></span>
+                        <span class="block text-purple-500 font-medium">The '3x' means 3 times x. The opposite of multiplying by 3 is dividing by 3.</span>
+                        <span class="block">1. Divide both sides by 3: <span class="font-semibold">3x / 3 = 12 / 3</span></span>
+                        <span class="block">2. This gives us: <span class="font-semibold">x = 4</span></span>
+                        <span class="block mt-2 font-semibold text-green-600">The mystery number is 4! 🎉</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Finding Two Variables -->
+        <section class="p-6 bg-pink-50 rounded-2xl shadow-inner">
+            <h2 class="text-3xl font-bold text-pink-600 mb-4">Finding Two Variables 👫</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                Sometimes you have two mystery boxes (<code class="bg-pink-200 px-2 py-1 rounded-md text-pink-800 font-mono font-semibold">x</code> and <code class="bg-pink-200 px-2 py-1 rounded-md text-pink-800 font-mono font-semibold">y</code>) and two different clues (equations). We need to solve both at the same time. The easiest way for now is called **substitution**!
+            </p>
+
+            <div class="mt-6 space-y-4">
+                <div class="bg-white p-4 rounded-xl shadow-md border border-pink-200">
+                    <h3 class="font-bold text-xl text-pink-700 mb-2">Example: Substitution Method</h3>
+                    <p class="font-mono text-gray-800 text-lg">
+                        <span class="block mb-2">Let's use these two clues:</span>
+                        <span class="block mb-1">Clue 1: <span class="font-semibold text-pink-700">y = x + 3</span></span>
+                        <span class="block mb-1">Clue 2: <span class="font-semibold text-pink-700">2x + y = 9</span></span>
+
+                        <span class="block mt-4 text-pink-500 font-medium">1. The first clue tells us exactly what <code class="bg-pink-200 px-2 py-1 rounded-md text-pink-800 font-mono font-semibold">y</code> is! So we can **substitute** <span class="font-semibold">x + 3</span> into the second equation wherever we see a <code class="bg-pink-200 px-2 py-1 rounded-md text-pink-800 font-mono font-semibold">y</code>.</span>
+                        <span class="block">Equation becomes: <span class="font-semibold">2x + (x + 3) = 9</span></span>
+                        
+                        <span class="block mt-4 text-pink-500 font-medium">2. Now we have an equation with only one variable, just like before! Let's solve it.</span>
+                        <span class="block">Combine the x's: <span class="font-semibold">3x + 3 = 9</span></span>
+                        <span class="block">Subtract 3 from both sides: <span class="font-semibold">3x = 6</span></span>
+                        <span class="block">Divide both sides by 3: <span class="font-semibold">x = 2</span></span>
+
+                        <span class="block mt-4 text-pink-500 font-medium">3. We found our first variable! Now, take your value for <code class="bg-pink-200 px-2 py-1 rounded-md text-pink-800 font-mono font-semibold">x</code> (which is 2) and plug it back into Clue 1.</span>
+                        <span class="block">Clue 1 with <code class="bg-pink-200 px-2 py-1 rounded-md text-pink-800 font-mono font-semibold">x=2</code>: <span class="font-semibold">y = 2 + 3</span></span>
+                        <span class="block">Solve for y: <span class="font-semibold">y = 5</span></span>
+                        
+                        <span class="block mt-4 font-bold text-green-600">Awesome! We found both mystery numbers: <span class="font-semibold">x = 2</span> and <span class="font-semibold">y = 5</span>! 🎉🎉</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 mt-8">
+            <p>&copy; 2025 Your Algebra Tutor</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
